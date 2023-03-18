@@ -1,0 +1,21 @@
+Platform – Jupyter Notebook, Microsoft Excel
+Language – Python
+Libraries used – sklearn, numpy, pandas, pulp, math
+
+1.	Predicting the demand for 2019 & 2020:
+For this we used the Polynomial Regression model form the Scikit learn library.
+We trained the model using the demand values for 2010-2018 and predicted the values for 2019-2020.
+
+2.	Creating the distance matrix:
+We took the demand point coordinates and supply point coordinates from the dataset and calculated the Euclidean distance and arranged the values in the form of a matrix.
+
+3.	Minimizing the cost equation:
+We used the PuLP library for optimization. Created the PuLP optimization model.
+We declared the DS value as X variable, SCS as S variable and FCS as F variable and defined the cost equation given in the problem statement.
+Then defined the constraints from the problem statement in the model and minimized the cost equation. After optimization we get the optimal values for all the variables.
+
+4.	Arranging the values according to the required format:
+The variables obtained from the optimization model are arranged in the CSV file according to the submission format using Microsoft Excel.
+
+
+
